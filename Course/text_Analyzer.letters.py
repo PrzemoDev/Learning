@@ -25,5 +25,7 @@ letter = input("What letter you are looking for?:")
 for loop in text:
     final = 100 * counter(text, letter) / len(text)
 
+#This line is too long, but still working ^^
+
 print("Percentage of the text letter" " " + \
 letter.upper() + " equals " + "%.2f" %final + "%")
