@@ -6,7 +6,7 @@
 # Copyright:   (c) PrzemoDev 2016
 #-------------------------------------------------------------------------------
 
-# How it works: You need to set file (in .txt) and what letter you want to find.
+# How it works: You need to set file (in .txt) and letter you want to find.
 
 
 def counter(text, letter):
