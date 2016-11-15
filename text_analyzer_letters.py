@@ -20,7 +20,7 @@ file = input("What's you file name?:")
 file += ".txt"
 with open(file) as f:
     text = f.read()
-letter = input("What letter you are looking for?:")
+letter = input("What letter are you looking for?:")
 
 for loop in text:
     final = 100 * counter(text, letter) / len(text)
