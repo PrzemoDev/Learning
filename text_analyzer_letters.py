@@ -8,6 +8,13 @@
 
 # How it works: You need to set file (in .txt) and letter you want to find.
 
+def counter(text, letter):
+    count = 0
+    for loop in text:
+        if loop == letter:
+            count += 1
+    return(count)
+
 file = input("What's you file name?:")
 file += ".txt"
 with open(file) as f:
